@@ -21,7 +21,8 @@ const corsOptions = {
   exposedHeaders: 'auth',
 };
 
-app.use(cors(corsOptions));
+// ✅ Allow ALL origins
+app.use(cors({ origin: '*', exposedHeaders: 'auth' }));
 
 // router
 app.use(`${API_VERSION}/categoryImages/:id`, (req, res) => {
