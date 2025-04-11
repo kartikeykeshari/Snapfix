@@ -58,7 +58,7 @@ function SignIn() {
             right: '1rem',
           }}
         >
-          <Logo /> <h1 className='title'>HomeServices</h1>
+          <Logo /> <h1 className='title'>SnapFix</h1>
         </div>
         <h2 className='welcomeBack'>Welcome back</h2>
         <p className='loginIntoAccount'>

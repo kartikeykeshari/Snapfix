@@ -105,7 +105,7 @@ function SignIn(props) {
           <Logo />
         </div>
         <h1 className='text-3xl font-bold mt-4'>
-          Welcome back to HomeServices
+          Welcome back to SnapFix
         </h1>
         <p className='text-lg mt-2'>Please log into your account</p>
         <Form

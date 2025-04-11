@@ -65,7 +65,7 @@ function SignUp() {
         <div className='flex align-middle justify-center items-center'>
           <Logo />
         </div>
-        <h1 className='text-3xl font-bold mt-4'>Welcome to HomeServices</h1>
+        <h1 className='text-3xl font-bold mt-4'>Welcome to SnapFix</h1>
         <p className='text-lg mt-2'>Please register your account</p>
         <Form form={form} layout='vertical' className='space-y-4 mt-6'>
           <Form.Item
